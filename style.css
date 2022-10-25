@@ -1,0 +1,110 @@
+.attribution {
+    text-align: center;
+    margin :0;
+    background-color: #F6F6F6;
+}
+
+body {
+    background-color: hsl(0, 0%, 100%);
+    font-size: 14px;
+}
+
+#cart {
+    background-color: hsl(158, 36%, 37%);
+    border: none;
+    border-radius: 5px;
+    width: 80%;
+    height: 40px;
+    color: white;
+    padding-top: 0;
+    padding-bottom: 0;
+}
+
+#description {
+    font-weight: 500,700;
+    font-family: 'Montserrat', sans-serif;
+    text-align: left;
+    margin-left: 15px;
+    margin-bottom: 0;
+}
+
+.container {
+    background-color: hsl(30, 38%, 92%);
+    max-width: 1440px;
+    height: 360px;
+    display: flex;
+    justify-content: center;
+    margin-top: 0;
+    margin-left: 1%;
+    padding-top: 180px;
+    padding-bottom: 180px;
+    flex-wrap: wrap;
+    width: 100%;
+
+}
+
+#disc {
+    font-size: 25px;
+    color: hsl(158, 36%, 37%);
+    font-family: 'Fraunces', serif;
+    text-align: left; 
+    margin-top: 5%;
+    margin-bottom: 5%;
+    justify-content :left;
+    
+}
+
+h1 {
+    font-weight: 700;
+    font-family: 'Fraunces', serif;
+    text-align: left;
+    margin-left: 15px;
+    font-size: 35px;
+    margin-top: 10px;
+    
+}
+
+img {
+    height: 380px;
+    max-height: 540px;
+    max-height: 540px;
+}
+
+.harga {
+    display: inline-block;
+    margin-bottom: 4px;
+}
+
+#nodisc {
+    font-size: 12px;
+}
+
+p {
+    font-size: 0.9vw;
+}
+
+#parfum {
+    text-align:left;
+    margin-left: 15px;
+}
+
+.product {
+    width: 240px;
+    height: 380px;
+    background-color: white;
+    text-align: center;
+    align-items: center;
+    max-width: 375px;
+}
+
+s {
+    font-size: 10px;
+}
+
+@media screen and (max-width: 375px) {
+	/* Di sini juga lur */
+	.container {
+		flex: 100%;
+		padding: 15px;
+	}
+}
